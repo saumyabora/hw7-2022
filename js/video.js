@@ -51,7 +51,7 @@ document.querySelector("#slider").addEventListener("change", function() {
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
-	document.documentElement.className = 'oldSchool';
+	document.documentElement.classList.add("oldSchool");
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
