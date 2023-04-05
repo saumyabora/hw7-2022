@@ -51,9 +51,9 @@ document.querySelector("#slider").addEventListener("change", function() {
 });
 
 document.querySelector("#vintage").addEventListener("click", function() {
-	document.documentElement.classList.add("oldSchool");
+	video.classList.add("oldSchool");
 });
 
 document.querySelector("#orig").addEventListener("click", function() {
-	document.documentElement.classList.remove("oldSchool");
+	video.classList.remove("oldSchool");
 });
